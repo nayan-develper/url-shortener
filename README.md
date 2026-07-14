@@ -7,7 +7,7 @@ A URL shortening service with custom aliases, idempotent duplicate handling, and
 - **Runtime**: Node.js
 - **Framework**: Express.js
 - **Database**: MongoDB + Mongoose
-- **Tests**: Jest + Supertest + mongodb-memory-server (no external DB needed to run tests)
+- **Tests**: Jest + Supertest + mongodb-memory-server 
 
 ## Prerequisites
 
