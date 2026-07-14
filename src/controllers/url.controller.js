@@ -37,7 +37,7 @@ async function redirectToUrl(req, res) {
   const entry = await Url.findOneAndUpdate(
     { code },
     { $inc: { clicks: 1 } },
-    { new: true }
+    { returnDocument: 'after' }
   );
 
   if (!entry) {
