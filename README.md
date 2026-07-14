@@ -97,7 +97,3 @@ curl -v http://localhost:3000/my-link
 # < HTTP/1.1 301 Moved Permanently
 # < Location: https://example.com/some/very/long/path
 ```
-
-## Design decisions
-
-See [WRITEUP.md](./WRITEUP.md) for the full write-up on design decisions and trade-offs.
