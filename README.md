@@ -101,7 +101,3 @@ curl -v http://localhost:3000/my-link
 ## Demo
 
 ![URL Shortener in action](./sc_url.png)
-
-## Design decisions
-
-See [WRITEUP.md](./WRITEUP.md) for the full write-up on design decisions and trade-offs.
